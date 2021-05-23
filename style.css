@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://media.discordapp.net/attachments/835540159461458005/845928163154329620/backblur.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(0, 255, 0);
+}
+#header_1{
+    color: rgb(255, 0, 255);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 500%;
+
+}
+.mainheader{
+    color:rgb(245, 140, 140);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mainblock{
+    width: 70%;
+    margin: 0 auto;
+}
+/* .back_img{
+    height: 100%;
+    background-image: url(https://images-ext-1.discordapp.net/external/-RIM0UBuIi1qc2dnSyUKBfU_rS4YgshAABcQnDNZNmk/https/images.drive.ru/i/0/5ea6dd8dec05c41134000004.jpg);
+    filter: blur(8px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+} */
+.block{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.search{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.search_img{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+.search_input{
+    height: 25%;
+    margin-left: 10px;
+    outline: none;
+    opacity: 0.5;
+}
+.map{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    border-top: 1% solid #ffff;
+    background-color: rgba(207, 207, 207, 0.5)
+}
